@@ -26,21 +26,21 @@ class Dashboard extends Component {
                 >
                   <div className="testimonial-item">
                     <img
-                      src="assets/img/D1.jpg"
+                      src="assets/img/D1.PNG"
                       className="img-fluid mx-auto d-block"
                       alt="Dashboard-1"
                     />
                   </div>
                   <div className="testimonial-item">
                     <img
-                      src="assets/img/D2.jpg"
+                      src="assets/img/D2.PNG"
                       className="img-fluid mx-auto d-block"
                       alt="Dashboard-2"
                     />
                   </div>
                   <div className="testimonial-item">
                     <img
-                      src="assets/img/D3.jpg"
+                      src="assets/img/D3.PNG"
                       className="img-fluid mx-auto d-block"
                       alt="Dashboard-3"
                     />

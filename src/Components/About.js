@@ -21,7 +21,7 @@ class About extends Component {
               </p>
             </header>
             <img
-              src="assets/img/about-img.jpg"
+              src="assets/img/about.png"
               className="img-fluid mx-auto d-block"
               alt="about"
             />
