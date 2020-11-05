@@ -25,21 +25,21 @@ class Team extends Component {
                       <span>CEO</span>
                       <div className="social">
                         <a
-                          href="mailto:m.nazarizadeh@gmail.com?subject=Contact IA Team"
+                          href="mailto:Abdollahzade@gmail.com?subject=Contact Domchain Team"
                           target="_blank"
                           rel="noopener noreferrer"
                         >
                           <i className="fa fa-google" />
                         </a>
                         <a
-                          href="mailto:mnazarizadeh@iot-analytical.com?subject=Contact IA Team"
+                          href="mailto:Abdollahzade@domchain.ir?subject=Contact Domchain Team"
                           target="_blank"
                           rel="noopener noreferrer"
                         >
                           <i className="fa fa-envelope" />
                         </a>
                         <a
-                          href="https://www.linkedin.com/in/mnazarizadeh"
+                          href="https://www.linkedin.com"
                           target="_blank"
                           rel="noopener noreferrer"
                         >
@@ -67,21 +67,21 @@ class Team extends Component {
                       <span>COO</span>
                       <div className="social">
                         <a
-                          href="mailto:maedehamiri@gmail.com?subject=Contact IA Team"
+                          href="mailto:Khodabandeh@gmail.com?subject=Contact Domchain Team"
                           target="_blank"
                           rel="noopener noreferrer"
                         >
                           <i className="fa fa-google" />
                         </a>
                         <a
-                          href="mailto:mamiri@iot-analytical.com?subject=Contact IA Team"
+                          href="mailto:Khodabandeh@domchain.ir?subject=Contact Domchain Team"
                           target="_blank"
                           rel="noopener noreferrer"
                         >
                           <i className="fa fa-envelope" />
                         </a>
                         <a
-                          href="https://www.linkedin.com/in/maedeh-amiri-78829b108"
+                          href="https://www.linkedin.com"
                           target="_blank"
                           rel="noopener noreferrer"
                         >
@@ -109,21 +109,21 @@ class Team extends Component {
                       <span>CTO</span>
                       <div className="social">
                         <a
-                          href="mailto:asadoughi1990@gmail.com?subject=Contact IA Team"
+                          href="mailto:Aghdasi@gmail.com?subject=Contact Domchain Team"
                           target="_blank"
                           rel="noopener noreferrer"
                         >
                           <i className="fa fa-google" />
                         </a>
                         <a
-                          href="mailto:asadoughi@iot-analytical.com?subject=Contact IA Team"
+                          href="mailto:Aghdasi@domchain.ir?subject=Contact Domchain Team"
                           target="_blank"
                           rel="noopener noreferrer"
                         >
                           <i className="fa fa-envelope" />
                         </a>
                         <a
-                          href="https://www.linkedin.com/in/ali-sadoughi-62a8651a3"
+                          href="https://www.linkedin.com"
                           target="_blank"
                           rel="noopener noreferrer"
                         >
@@ -151,21 +151,21 @@ class Team extends Component {
                       <span>CFO</span>
                       <div className="social">
                         <a
-                          href="mailto:marsa.mousavi@gmail.com?subject=Contact IA Team"
+                          href="mailto:Maleki@gmail.com?subject=Contact Domchain Team"
                           target="_blank"
                           rel="noopener noreferrer"
                         >
                           <i className="fa fa-google" />
                         </a>
                         <a
-                          href="mailto:mmousavi@iot-analytical.com?subject=Contact IA Team"
+                          href="mailto:Maleki@domchain.ir?subject=Contact Domchain Team"
                           target="_blank"
                           rel="noopener noreferrer"
                         >
                           <i className="fa fa-envelope" />
                         </a>
                         <a
-                          href="https://www.linkedin.com/in/marsamousavi"
+                          href="https://www.linkedin.com"
                           target="_blank"
                           rel="noopener noreferrer"
                         >
@@ -195,21 +195,21 @@ class Team extends Component {
                       <span>Data Engineer</span>
                       <div className="social">
                         <a
-                          href="mailto:hamed.nazarizadehh@gmail.com?subject=Contact IA Team"
+                          href="mailto:Maddahi@gmail.com?subject=Contact Domchain Team"
                           target="_blank"
                           rel="noopener noreferrer"
                         >
                           <i className="fa fa-google" />
                         </a>
                         <a
-                          href="mailto:hnazarizadeh@iot-analytical.com?subject=Contact IA Team"
+                          href="mailto:Maddahi@domchain.ir?subject=Contact Domchain Team"
                           target="_blank"
                           rel="noopener noreferrer"
                         >
                           <i className="fa fa-envelope" />
                         </a>
                         <a
-                          href="https://www.linkedin.com/in/hamednz"
+                          href="https://www.linkedin.com"
                           target="_blank"
                           rel="noopener noreferrer"
                         >

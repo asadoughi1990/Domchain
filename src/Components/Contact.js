@@ -45,7 +45,7 @@ class Contact extends Component {
                   </div>
                   <form
                       onSubmit={this.submitForm}
-                      action="https://formspree.io/mgeybdzq"
+                      action="https://formspree.io/f/xnqovwbv"
                       method="post"
                       className="contactForm">
                     <div className="form-row">
@@ -65,7 +65,7 @@ class Contact extends Component {
                         <input
                           type="email"
                           className="form-control"
-                          name="_replyto"
+                          name="email"
                           id="email"
                           placeholder="Your Email"
                           data-rule="email"

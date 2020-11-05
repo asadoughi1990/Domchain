@@ -12,17 +12,17 @@ class FAQ extends Component {
             <div className="accordion" id="accordionExample">
               <div className="card-faq">
                 <button
-                    className="btn btn-link btn-faq collapsed"
-                    type="button"
-                    data-toggle="collapse"
-                    data-target="#collapseOne"
-                    aria-expanded="true"
-                    aria-controls="collapseOne"
+                  className="btn btn-link btn-faq collapsed"
+                  type="button"
+                  data-toggle="collapse"
+                  data-target="#collapseOne"
+                  aria-expanded="true"
+                  aria-controls="collapseOne"
                 >
                   <div className="card-header" id="headingOne">
                     <h2 className="mb-0 faq-question">
-                      <h5>Q.</h5>
-                      How can IoT analytical be installed?
+                      <strong>Q.</strong>
+                      How do I add a new question?
                     </h2>
                   </div>
                 </button>
@@ -34,29 +34,26 @@ class FAQ extends Component {
                   data-parent="#accordionExample"
                 >
                   <div className="card-body">
-                    <h5>A.</h5>
-                    First, you have to install the device, connect it to a power
-                    source. Then, you should connect to your home’s network
-                    either by wired connection or wireless. Finally, install the
-                    software on your hub and connect it to the device. We can
-                    also install them for free if you purchase 10 units or more.
-                    For more information contact support.
+                    <strong>A.</strong>
+                    <br />
+                    To add a new question go to app settings and press "Manage
+                    Questions" button.
                   </div>
                 </div>
               </div>
               <div className="card-faq">
                 <button
-                    className="btn btn-link btn-faq collapsed"
-                    type="button"
-                    data-toggle="collapse"
-                    data-target="#collapseTwo"
-                    aria-expanded="false"
-                    aria-controls="collapseTwo"
+                  className="btn btn-link btn-faq collapsed"
+                  type="button"
+                  data-toggle="collapse"
+                  data-target="#collapseTwo"
+                  aria-expanded="false"
+                  aria-controls="collapseTwo"
                 >
                   <div className="card-header" id="headingTwo">
                     <h2 className="mb-0 faq-question">
-                      <h5>Q.</h5>
-                      Can I customize IoT analytical for my customers?
+                      <strong>Q.</strong>
+                      Can I insert pictures in my FAQ?
                     </h2>
                   </div>
                 </button>
@@ -68,26 +65,37 @@ class FAQ extends Component {
                   data-parent="#accordionExample"
                 >
                   <div className="card-body">
-                    <h5>A.</h5>
-                    Yes. We have custom plans for home and apartment developers
-                    to customize IoT analytical based on their needs. Contact us
-                    for more information.
+                    <strong>A.</strong>
+                    <br />
+                    Yes! To add a picture follow these simple steps:
+                    <ol>
+                      <li>Enter App Settings</li>
+                      <li>Click the "Manage Questions" button</li>
+                      <li>
+                        Click on the question you would like to attach a picture
+                        to
+                      </li>
+                      <li>
+                        When editing your answer, click on the picture icon and
+                        then add an image from your library
+                      </li>
+                    </ol>
                   </div>
                 </div>
               </div>
               <div className="card-faq">
                 <button
-                    className="btn btn-link btn-faq collapsed"
-                    type="button"
-                    data-toggle="collapse"
-                    data-target="#collapseThree"
-                    aria-expanded="false"
-                    aria-controls="collapseThree"
+                  className="btn btn-link btn-faq collapsed"
+                  type="button"
+                  data-toggle="collapse"
+                  data-target="#collapseThree"
+                  aria-expanded="false"
+                  aria-controls="collapseThree"
                 >
                   <div className="card-header" id="headingThree">
                     <h2 className="mb-0 faq-question">
-                      <h5>Q.</h5>
-                      What if my internet connection has been lost?
+                      <strong>Q.</strong>
+                      Can i insert a video in my FAQ?
                     </h2>
                   </div>
                 </button>
@@ -98,26 +106,41 @@ class FAQ extends Component {
                   data-parent="#accordionExample"
                 >
                   <div className="card-body">
-                    <h5>A.</h5>
-                    IoT analytical works independent of internet connection and
-                    stores data locally. Whenever your internet connection is
-                    lost, the system identifies it and acts accordingly.
+                    <strong>A.</strong>
+                    <br />
+                    Yes! Users can add video from YouTube or Vimeo with ease:
+                    <ol>
+                      <li>Enter App Settings</li>
+                      <li>Click the "Manage Questions" button</li>
+                      <li>
+                        Click on the question you would like to attach a video
+                        to
+                      </li>
+                      <li>
+                        When editing your answer, click on the video icon and
+                        then paste the YouTube or Vimeo video URL
+                      </li>
+                      <li>
+                        That's it! A thumbnail of your video will appear in
+                        answer text box
+                      </li>
+                    </ol>
                   </div>
                 </div>
               </div>
               <div className="card-faq">
                 <button
-                    className="btn btn-link btn-faq collapsed"
-                    type="button"
-                    data-toggle="collapse"
-                    data-target="#collapseFour"
-                    aria-expanded="false"
-                    aria-controls="collapseFour"
+                  className="btn btn-link btn-faq collapsed"
+                  type="button"
+                  data-toggle="collapse"
+                  data-target="#collapseFour"
+                  aria-expanded="false"
+                  aria-controls="collapseFour"
                 >
                   <div className="card-header" id="headingFour">
                     <h2 className="mb-0 faq-question">
-                      <h5>Q.</h5>
-                      How does my privacy protect?
+                      <strong>Q.</strong>
+                      How do I edit or remove the "FAQ title"?
                     </h2>
                   </div>
                 </button>
@@ -128,15 +151,15 @@ class FAQ extends Component {
                   data-parent="#accordionExample"
                 >
                   <div className="card-body">
-                    <h5>A.</h5>
-                    All collected data is encrypted through a P2P system with
-                    military-grade protection levels. You can also disable the
-                    cloud back-up option on which case your data will be
-                    available locally only.
+                    <strong>A.</strong>
+                    <br />
+                    The FAQ title can be adjusted in the settings tab of the App
+                    Settings. You can also remove the title by unchecking its
+                    checkbox in the settings tab.
                   </div>
                 </div>
               </div>
-              <div className="card-faq">
+              {/* <div className="card-faq">
                 <button
                     className="btn btn-link btn-faq collapsed"
                     type="button"
@@ -147,7 +170,7 @@ class FAQ extends Component {
                 >
                   <div className="card-header" id="headingFive">
                     <h2 className="mb-0 faq-question">
-                      <h5>Q.</h5>
+                      <strong>Q.</strong>
                       Is IoT analytical GDPR or/and CCPA compatible?
                     </h2>
                   </div>
@@ -159,7 +182,7 @@ class FAQ extends Component {
                   data-parent="#accordionExample"
                 >
                   <div className="card-body">
-                    <h5>A.</h5>
+                    <strong>A.</strong>
                     We are fully compatible with all applicable laws and
                     regulations including GDPR and CCPA. Our cloud
                     infrastructure is based in EU and all reasonable efforts
@@ -178,7 +201,7 @@ class FAQ extends Component {
                 >
                   <div className="card-header" id="headingSix">
                     <h2 className="mb-0 faq-question">
-                      <h5>Q.</h5>
+                      <strong>Q.</strong>
                       Do you have a warranty?
                     </h2>
                   </div>
@@ -190,14 +213,14 @@ class FAQ extends Component {
                   data-parent="#accordionExample"
                 >
                   <div className="card-body">
-                    <h5>A.</h5>
+                    <strong>A.</strong>
                     All devices come with a limited 1-year warranty which covers
                     reasonable usage. In case your device malfunction within 1
                     month from the date of purchase, we will replace it with a
                     new one for free.
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </section>

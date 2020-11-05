@@ -40,7 +40,7 @@ class Navbar extends Component {
                   </AnchorLink>
                 </li>
                 <li className="nav-item">
-                  <AnchorLink className="nav-link" href="#why-us">
+                  <AnchorLink className="nav-link" offset="80" href="#why-us">
                     Features
                   </AnchorLink>
                 </li>
@@ -50,12 +50,12 @@ class Navbar extends Component {
                   </AnchorLink>
                 </li>
                 <li className="nav-item">
-                  <AnchorLink className="nav-link" href="#faq">
+                  <AnchorLink className="nav-link" offset="50" href="#faq">
                     FAQ
                   </AnchorLink>
                 </li>
                 <li className="nav-item">
-                  <AnchorLink className="nav-link" href="#team">
+                  <AnchorLink className="nav-link" offset="80" href="#team">
                     Team
                   </AnchorLink>
                 </li>
