@@ -2,11 +2,11 @@ import React from 'react';
 
 const TeamItems = (props) => {
     return (
-      <div className="col-lg-3 col-sm-6">
+      <div className="col-lg col-sm-6">
         <div className="team-box">
           <div className="team-wrapper mb-4 mb-lg-0">
             <div className="team-member">
-              <img src={props.photo} alt="Person 1" />
+              <img src={props.photo} alt="Person" />
             </div>
           </div>
           <div className="team-info">
@@ -18,7 +18,7 @@ const TeamItems = (props) => {
             <ul className="list-socmed list-unstyled m-0">
               <li>
                 <a href="/">
-                  <i className="ion ion-logo-facebook"></i>
+                  <i className="ion ion-logo-facebook" size="small"></i>
                 </a>
               </li>
               <li>
@@ -29,11 +29,6 @@ const TeamItems = (props) => {
               <li>
                 <a href="/">
                   <i className="ion ion-logo-instagram"></i>
-                </a>
-              </li>
-              <li>
-                <a href="/">
-                  <i className="ion ion-logo-dribbble"></i>
                 </a>
               </li>
             </ul>

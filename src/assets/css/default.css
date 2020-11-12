@@ -68,7 +68,7 @@ h6 {
 .btn-custom {
   background: #00adb5;
   color: #fff;
-  font-size: 16px;
+  font-size: 20px;
 }
 .btn-custom:hover,
 .btn-custom:focus {
@@ -91,10 +91,9 @@ h6 {
 }
 
 .play-shadow {
-  border-radius: 50%;
+  
   border: 3px solid #00adb5;
-  width: 80px;
-  height: 80px;
+  
 }
 
 .btn-play {
@@ -206,7 +205,7 @@ h6 {
 }
 #header .header-description {
   color: #eee;
-  font-size: 18px;
+  font-size: 22px;
   line-height: 1.5;
 }
 
@@ -252,6 +251,44 @@ h6 {
 }
 .is-sticky .navbar-header.sticky-light {
   background-color: #fff;
+}
+
+#about img {
+  height: 50%;
+  width: 50%;
+}
+
+/* Add an extra .carousel parent class to increase specificity
+   avoiding the use of !important flag. */
+.carousel .carousel-indicators li {
+  background-color: #fff;
+  background-color: rgba(70, 70, 70, 0.25);
+}
+
+.carousel .carousel-indicators .active {
+  background-color: #444;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after {
+  content: ">";
+  font-size: 55px;
+  color: black;
+}
+
+.carousel-control-prev-icon:after {
+  content: "<";
+  font-size: 55px;
+  color: black;
 }
 
 .section {
@@ -342,7 +379,6 @@ h6 {
   border: 3px solid #e8e9ea;
   border-radius: 5px 5px 0 0;
   padding: 40px 20px 30px 20px;
-  border-bottom: 0px;
 }
 .pricing-box .pricing-border {
   width: 100%;
@@ -419,33 +455,67 @@ h6 {
   margin-right: 20px;
 }
 
-#started {
+#contact #sendmessage {
+  color: green;
+  border: 1px solid green;
+  display: none;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+#contact #errormessage {
+  color: red;
+  display: none;
+  border: 1px solid red;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+#contact #sendmessage.show,
+#contact #errormessage.show,
+#contact .show {
+  display: block;
+}
+
+#contact .validation {
+  color: red;
+  display: none;
+  margin: 0 0 20px;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+#video {
   display: flex;
   align-items: center;
   min-height: 350px;
-  background-image: url("../images/img5.jpg");
+  background-image: url("../images/video.png");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
   position: relative;
 }
-#started .overlay-bg {
+#video .overlay-bg {
   position: absolute;
   width: 100%;
   height: 100%;
   background: rgba(34, 40, 49, 0.6);
 }
-#started .container {
+#video .container {
   position: relative;
   padding-top: 75px;
   padding-bottom: 75px;
 }
-#started .text-title {
+#video .text-title {
   font-size: 36px;
   font-weight: Bold;
   margin-bottom: 25px;
 }
-#started .text-description {
+#video .text-description {
   max-width: 400px;
   font-size: 16px;
   font-weight: 500;
@@ -532,14 +602,14 @@ h6 {
     line-height: 48px;
   }
   #header .header-description {
-    font-size: 16px;
+    font-size: 20px;
   }
 
   .section .section-title {
     font-size: 28px;
   }
 
-  #started .text-title {
+  #video .text-title {
     font-size: 32px;
     line-height: 48px;
   }
@@ -597,3 +667,62 @@ h6 {
 }
 
 /*# sourceMappingURL=default.css.map */
+
+
+/* FAQ Section
+--------------------------------*/
+
+#faq .card-header {
+  padding: 0.75rem;
+}
+
+#faq .faq-header {
+  margin-bottom: 40px;
+}
+
+#faq .btn-faq {
+  width: 100%;
+  text-decoration: none;
+  text-align: left;
+  white-space: normal;
+}
+
+#faq .faq-question {
+  /*margin: 10px !important;*/
+  font-weight: 400;
+  font-size: 1rem;
+  color:  #00adb5;
+}
+
+#faq .card-faq {
+  background: white !important;
+}
+
+#faq .card-faq .card-header {
+  border-left: 5px solid #00adb5;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+#faq .card-faq .card-header h2 h5 {
+  display: inline-block;
+  color: #00adb5;
+  font-weight: bold;
+  font-size: large;
+  margin-right: 5px;
+  margin-bottom: 0;
+}
+
+#faq .card-faq .card-header h2 {
+  display: inline-block;
+}
+
+#faq .card-body {
+  padding: 10px 40px;
+}
+
+#faq .card-body h5 {
+  color: #00adb5;
+  font-weight: bold;
+  font-size: large;
+}

@@ -5,10 +5,9 @@ class Footer extends Component {
     return (
       <footer className="footer">
         <div className="container">
-          
           <div className="footer-bottom">
             <div className="d-flex">
-              2020 © Revolution Corp
+             {new Date().getFullYear()} © <strong> Domchain </strong>. All Rights Reserved.
               <div className="ml-auto">
                 <ul className="list-socmed list-unstyled m-0">
                   <li>
@@ -23,12 +22,7 @@ class Footer extends Component {
                   </li>
                   <li>
                     <a href="/">
-                      <i className="ion ion-logo-instagram"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="/">
-                      <i className="ion ion-logo-dribbble"></i>
+                      <i className="ion ion-logo-linkedin"></i>
                     </a>
                   </li>
                 </ul>

@@ -5,61 +5,64 @@ class Services extends Component {
     return (
       <section className="section bg-gray" id="services">
         <div className="container text-center">
-          <h1 className="section-title"> Services </h1>
-          <p className="section-subtitle">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ut
-            varius ex. Suspendisse sagittis rutrum condimentum.
-          </p>
+          <h1 className="section-title"> Easy to use Dashboard </h1>
+          <p className="section-subtitle mb-4">Sell your domain easily</p>
 
-          <div className="row mt-5">
-            <div className="col-md-6">
-              <div className="service-box text-center">
-                <h4 className="service-title">
-                  <i className="ion ion-ios-laptop"></i>
-                  Web Design
-                </h4>
-                <p className="service-description mb-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Praesent ut varius ex.
-                </p>
+          <div
+            id="carouselExampleIndicators"
+            class="carousel slide"
+            data-ride="carousel"
+          >
+            <ol class="carousel-indicators">
+              <li
+                data-target="#carouselExampleIndicators"
+                data-slide-to="0"
+                class="active"
+              ></li>
+              <li
+                data-target="#carouselExampleIndicators"
+                data-slide-to="1"
+              ></li>
+              <li
+                data-target="#carouselExampleIndicators"
+                data-slide-to="2"
+              ></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="assets/images/D1.png" class="d-block w-100" alt="Dashboard-1" />
+              </div>
+              <div class="carousel-item">
+                <img src="assets/images/D2.png" class="d-block w-100" alt="Dashboard-2" />
+              </div>
+              <div class="carousel-item">
+                <img src="assets/images/D3.png" class="d-block w-100" alt="Dashboard-3" />
               </div>
             </div>
-            <div className="col-md-6">
-              <div className="service-box text-center">
-                <h4 className="service-title">
-                  <i className="ion ion-ios-phone-portrait"></i>
-                  Mobile Application
-                </h4>
-                <p className="service-description mb-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Praesent ut varius ex.
-                </p>
-              </div>
-            </div>
-            <div className="col-md-6">
-              <div className="service-box text-center">
-                <h4 className="service-title">
-                  <i className="ion ion-logo-game-controller-a"></i>
-                  Game Design
-                </h4>
-                <p className="service-description mb-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Praesent ut varius ex.
-                </p>
-              </div>
-            </div>
-            <div className="col-md-6">
-              <div className="service-box text-center">
-                <h4 className="service-title">
-                  <i className="ion ion-ios-code"></i>
-                  Web Programming
-                </h4>
-                <p className="service-description mb-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Praesent ut varius ex.
-                </p>
-              </div>
-            </div>
+            <a
+              class="carousel-control-prev"
+              href="#carouselExampleIndicators"
+              role="button"
+              data-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a
+              class="carousel-control-next"
+              href="#carouselExampleIndicators"
+              role="button"
+              data-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="sr-only">Next</span>
+            </a>
           </div>
         </div>
       </section>

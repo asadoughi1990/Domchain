@@ -3,81 +3,55 @@ import React, { Component } from "react";
 class Features extends Component {
   render() {
     return (
-      <section className="section" id="features">
+      <section className="section bg-gray" id="features">
         <div className="container text-center">
-          <h1 className="section-title"> Features </h1>
-          <p className="section-subtitle">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ut
-            varius ex. Suspendisse sagittis rutrum condimentum.
-          </p>
-          <div className="mt-5">
-            <div className="row feature">
-              <div className="col-md-6 feature-img">
-                <img
-                  src="assets/images/img3.jpg"
-                  className="img-fluid mb-5 mb-md-0"
-                  alt="handshake"
-                />
-              </div>
-              <div className="col-md-6 feature-detail">
-                <h2 className="feature-title">Good for Small Business</h2>
-                <p className="feature-description">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
-                  vehicula, augue pellentesque varius viverra, augue eros
-                  facilisis nulla, et tempus libero orci vitae risus.
-                </p>
-                <div className="btn btn-custom btn-text">
-                  <div className="d-flex align-items-center justify-content-center">
-                    Learn More{" "}
-                    <i className="ion ion-ios-arrow-round-forward ml-2 icon-btn"></i>
+          <h1 className="section-title">Why Choose Us</h1>
+          <p className="section-subtitle"></p>
+
+          <div className="row mt-5">
+            <div className="col-lg-4">
+              <div className="pricing-box active">
+                <div className="pricing">
+                  <i className="fa fa-shield fa-5x pb-4"></i>
+                  <h2>Secured</h2>
+                  <div className="pricing-border"></div>
+                  <div className="plan-features mt-4">
+                    <p>
+                      Domchain like all blockchain frameworks is safe and
+                      secured. You would not have any concern about losing your
+                      domain or your money.
+                    </p>
                   </div>
                 </div>
               </div>
             </div>
-
-            <div className="row feature">
-              <div className="col-md-6 feature-img feature-right">
-                <img
-                  src="assets/images/img2.jpg"
-                  className="img-fluid mb-5 mb-md-0"
-                  alt="sibiloo"
-                />
-              </div>
-              <div className="col-md-6 feature-detail">
-                <h2 className="feature-title">Super Fast Response</h2>
-                <p className="feature-description">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
-                  vehicula, augue pellentesque varius viverra, augue eros
-                  facilisis nulla, et tempus libero orci vitae risus.
-                </p>
-                <div className="btn btn-custom btn-text">
-                  <div className="d-flex align-items-center justify-content-center">
-                    Learn More{" "}
-                    <i className="ion ion-ios-arrow-round-forward ml-2 icon-btn"></i>
+            <div className="col-lg-4">
+              <div className="pricing-box active">
+                <div className="pricing">
+                  <i className="fa fa-bolt fa-5x pb-4"></i>
+                  <h2>Prompt Process</h2>
+                  <div className="pricing-border"></div>
+                  <div className="plan-features mt-4">
+                    <p>
+                      Despite other platforms that take several days for
+                      transferring the domain and money, Domchain does this
+                      process quickly in less than 24 hours.
+                    </p>
                   </div>
                 </div>
               </div>
             </div>
-
-            <div className="row feature">
-              <div className="col-md-6 feature-img">
-                <img
-                  src="assets/images/img4.jpg"
-                  className="img-fluid mb-5 mb-md-0"
-                  alt="switches"
-                />
-              </div>
-              <div className="col-md-6 feature-detail">
-                <h2 className="feature-title">Using Good Technology</h2>
-                <p className="feature-description">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
-                  vehicula, augue pellentesque varius viverra, augue eros
-                  facilisis nulla, et tempus libero orci vitae risus.
-                </p>
-                <div className="btn btn-custom btn-text">
-                  <div className="d-flex align-items-center justify-content-center">
-                    Learn More{" "}
-                    <i className="ion ion-ios-arrow-round-forward ml-2 icon-btn"></i>
+            <div className="col-lg-4">
+              <div className="pricing-box active">
+                <div className="pricing">
+                  <i className="fa fa-dollar fa-5x pb-4"></i>
+                  <h2>Lower Cost</h2>
+                  <div className="pricing-border"></div>
+                  <div className="plan-features mt-4">
+                    <p className="pb-5">
+                      The transaction fee in Domchain is fixed and is the least
+                      in all two-sided markets.
+                    </p>
                   </div>
                 </div>
               </div>

@@ -1,23 +1,28 @@
 export const Person = [
   {
-    teamname: "Ali Sadoughi",
-    skill: "Front-end Developer",
-    photo: "assets/images/person1.png"
+    teamname: "Arash Abdollahzade",
+    skill: "CEO",
+    photo: "assets/images/1.jpg"
   },
   {
-    teamname: "Mamad Nazari",
-    skill: "Back-end Developer",
-    photo: "assets/images/person2.png"
+    teamname: "Mojtaba Khodabandeh",
+    skill: "COO",
+    photo: "assets/images/2.jpg"
   },
   {
-    teamname: "Nima Ab",
-    skill: "Lawyer",
-    photo: "assets/images/person3.png"
+    teamname: "Hasan Aghdasi",
+    skill: "CTO",
+    photo: "assets/images/3.jpg"
   },
   {
-    teamname: "Hamed Nazari",
-    skill: "Khoshgel",
-    photo: "assets/images/person4.png"
+    teamname: "Kimia Maleki",
+    skill: "CFO",
+    photo: "assets/images/4.jpg"
+  },
+  {
+    teamname: "Alireza Maddahi",
+    skill: "Data Engineer",
+    photo: "assets/images/5.jpg"
   }
 ];
 

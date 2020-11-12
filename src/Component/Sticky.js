@@ -1,13 +1,13 @@
 import React, { Component } from "react";
-
+import AnchorLink from "react-anchor-link-smooth-scroll";
 
 class Sticky extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      scrollingLock: false
+      scrollingLock: false,
     };
-    // example how to bind object in React ES6
+
     this.handleScroll = this.handleScroll.bind(this);
   }
 
@@ -22,11 +22,11 @@ class Sticky extends Component {
   handleScroll() {
     if (window.scrollY > 5) {
       this.setState({
-        scrollingLock: true
+        scrollingLock: true,
       });
     } else if (window.scrollY < 5) {
-       this.setState({
-        scrollingLock: false
+      this.setState({
+        scrollingLock: false,
       });
     }
   }
@@ -39,9 +39,10 @@ class Sticky extends Component {
       >
         <nav className="navbar navbar-expand-lg navbar-dark navbar-header fixed-top sticky sticky-dark pl-0 pr-0">
           <div className="container">
-            <a className="navbar-brand" href="/">
-              <img src="./../assets/images/logo.png" height="35" alt="logo" />
-            </a>
+            <AnchorLink className="navbar-brand" href="#header">
+              {/* <img src="./../assets/images/logo.png" height="35" alt="logo" /> */}
+              <h3 style={{ margin: "0" }}>Domchain</h3>
+            </AnchorLink>
             <button
               className="navbar-toggler"
               type="button"
@@ -56,30 +57,35 @@ class Sticky extends Component {
             <div className="collapse navbar-collapse" id="navbarNav">
               <ul className="navbar-nav ml-auto">
                 <li className="nav-item active">
-                    <a className="nav-link" href="#features">
-                      Features
-                    </a>
-                  </li>
-                  <li className="nav-item">
-                    <a className="nav-link" href="#services">
-                      Services
-                    </a>
-                  </li>
-                  <li className="nav-item">
-                    <a className="nav-link" href="#pricing">
-                      Pricing
-                    </a>
-                  </li>
-                  <li className="nav-item">
-                    <a className="nav-link" href="#team">
-                      Team
-                    </a>
-                  </li>
-                  <li className="nav-item">
-                    <a className="nav-link" href="#contact">
-                      Contact
-                    </a>
-                  </li>
+                  <AnchorLink className="nav-link" href="#about">
+                    About
+                  </AnchorLink>
+                </li>
+                <li className="nav-item">
+                  <AnchorLink className="nav-link" href="#features">
+                    Features
+                  </AnchorLink>
+                </li>
+                <li className="nav-item">
+                  <AnchorLink className="nav-link" offset="80" href="#video">
+                    Video
+                  </AnchorLink>
+                </li>
+                <li className="nav-item">
+                  <AnchorLink className="nav-link" href="#faq">
+                    FAQ
+                  </AnchorLink>
+                </li>
+                <li className="nav-item">
+                  <AnchorLink className="nav-link" href="#team">
+                    Team
+                  </AnchorLink>
+                </li>
+                <li className="nav-item">
+                  <AnchorLink className="nav-link" href="#contact">
+                    Contact
+                  </AnchorLink>
+                </li>
               </ul>
             </div>
           </div>

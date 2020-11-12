@@ -4,9 +4,9 @@ import Sticky from "./Sticky";
 export default class NavBarSite extends Component {
   render() {
     return (
-        <React.Fragment>
+      <React.Fragment>
         <Sticky></Sticky>
-       
+
         <section
           id="header"
           className="height-half"
@@ -19,19 +19,16 @@ export default class NavBarSite extends Component {
                 <div className="row">
                   <div className="col-md-12">
                     <h1 className="header-title mt-4">
-                      Let's Bring The Revolution
+                      Buy and Sell Domains Safely
                       <br />
-                      to The World
+                      by Domchain!
                     </h1>
-                    <p className="header-description mt-3">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      <br />
-                      Nullam lacus dolor, venenatis non aliquet vitae, gravida
-                      vitae erat.
+                    <p className="header-description mt-4">
+                      a platform based on the blockchain for trading domains
                     </p>
-                     <a href="/" className="btn btn-custom btn-round mt-3"> 
-                    Learn More
-                     </a> 
+                    <a href="/" className="btn btn-custom btn-round mt-3">
+                      Start Trading
+                    </a>
                   </div>
                 </div>
               </div>
