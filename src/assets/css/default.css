@@ -555,6 +555,15 @@ h6 {
   padding: 20px 0;
 }
 
+@media (max-width: 415px) {
+  .footer {
+    font-size: 13px;
+  }
+  .footer .ion {
+    font-size: 15px;
+  }
+}
+
 /* Subscribe Box */
 .subscribe-box {
   background: #fff;

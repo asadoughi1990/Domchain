@@ -21,13 +21,13 @@ class Contact extends Component {
               <div className="contact-detail mt-3">
                 <i className="ion ion-ios-map"></i>{" "}
                 <p className="fw-bold">
-                  No 6, Street 9, Square 8, Tehran, IRAN
+                Azadi Innovation Factory, Lashkari Expy, Azadi Square, Tehran, IRAN
                 </p>
               </div>
               <div className="contact-detail mt-4">
                 <i className="ion ion-ios-call"></i>{" "}
                 <p>
-                  Phone: <span className="fw-bold">123-456-7890</span>
+                  Phone: <span className="fw-bold">+98-21-22509155</span>
                 </p>
               </div>
               <div className="contact-detail mt-4">

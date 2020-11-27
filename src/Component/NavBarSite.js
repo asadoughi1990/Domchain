@@ -26,7 +26,7 @@ export default class NavBarSite extends Component {
                     <p className="header-description mt-4">
                       a platform based on the blockchain for trading domains
                     </p>
-                    <a href="/" className="btn btn-custom btn-round mt-3">
+                    <a href="https://panel.domchain.ir/" className="btn btn-custom btn-round mt-3">
                       Start Trading
                     </a>
                   </div>

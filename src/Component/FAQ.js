@@ -19,7 +19,9 @@ class FAQ extends Component {
                 <div className="card-header" id="headingOne">
                   <h2 className="mb-0 faq-question">
                     <strong>Q.</strong>
-                    <span className="ml-2">How do I add a new question?</span>
+                    <span className="ml-2">
+                      Do i need to create a blockchain account before transfer?
+                    </span>
                   </h2>
                 </div>
               </button>
@@ -33,8 +35,8 @@ class FAQ extends Component {
                 <div className="card-body">
                   <strong>A.</strong>
                   <br />
-                  To add a new question go to app settings and press "Manage
-                  Questions" button.
+                  Not at all. All procedures will be handled through Domchain
+                  platform.
                 </div>
               </div>
             </div>
@@ -50,7 +52,9 @@ class FAQ extends Component {
                 <div className="card-header" id="headingTwo">
                   <h2 className="mb-0 faq-question">
                     <strong>Q.</strong>
-                    <span className="ml-2">Can I insert pictures in my FAQ?</span>
+                    <span className="ml-2">
+                      How long does the domain transfer process take?
+                    </span>
                   </h2>
                 </div>
               </button>
@@ -64,17 +68,23 @@ class FAQ extends Component {
                 <div className="card-body">
                   <strong>A.</strong>
                   <br />
-                  Yes! To add a picture follow these simple steps:
+                  It depends upon:
                   <ol>
-                    <li>Enter App Settings</li>
-                    <li>Click the "Manage Questions" button</li>
                     <li>
-                      Click on the question you would like to attach a picture
-                      to
+                      Current domain's condition. for instance, if seller update
+                      domain administration info, it will take 60 days for the
+                      domain to get unlocked.
                     </li>
                     <li>
-                      When editing your answer, click on the picture icon and
-                      then add an image from your library
+                      Approving time by both parties (for example, approving
+                      Form of Authority bo both parties should be done within 5
+                      days.)
+                    </li>
+                    <li>
+                      New and old registrars' policies. The transfer process
+                      will vary depending on the registrar(s) involved. The
+                      transfer process may require action from the Buyer and
+                      Seller.
                     </li>
                   </ol>
                 </div>
@@ -92,7 +102,9 @@ class FAQ extends Component {
                 <div className="card-header" id="headingThree">
                   <h2 className="mb-0 faq-question">
                     <strong>Q.</strong>
-                    <span className="ml-2">Can i insert a video in my FAQ?</span>
+                    <span className="ml-2">
+                      How do I check the status of my transactions?
+                    </span>
                   </h2>
                 </div>
               </button>
@@ -105,22 +117,8 @@ class FAQ extends Component {
                 <div className="card-body">
                   <strong>A.</strong>
                   <br />
-                  Yes! Users can add video from YouTube or Vimeo with ease:
-                  <ol>
-                    <li>Enter App Settings</li>
-                    <li>Click the "Manage Questions" button</li>
-                    <li>
-                      Click on the question you would like to attach a video to
-                    </li>
-                    <li>
-                      When editing your answer, click on the video icon and then
-                      paste the YouTube or Vimeo video URL
-                    </li>
-                    <li>
-                      That's it! A thumbnail of your video will appear in answer
-                      text box
-                    </li>
-                  </ol>
+                  You can always check the status of your domains through your
+                  dashboard. See: http://panel.domchain.ir/dashboard
                 </div>
               </div>
             </div>
@@ -136,7 +134,9 @@ class FAQ extends Component {
                 <div className="card-header" id="headingFour">
                   <h2 className="mb-0 faq-question">
                     <strong>Q.</strong>
-                    <span className="ml-2">How do I edit or remove the "FAQ title"?</span>
+                    <span className="ml-2">
+                      How much is the Domchain's commission fee?
+                    </span>
                   </h2>
                 </div>
               </button>
@@ -149,9 +149,8 @@ class FAQ extends Component {
                 <div className="card-body">
                   <strong>A.</strong>
                   <br />
-                  The FAQ title can be adjusted in the settings tab of the App
-                  Settings. You can also remove the title by unchecking its
-                  checkbox in the settings tab.
+                  Domchain does not take any commission fee until Jan 2022. Feel
+                  free to use Domchain as much as you need.
                 </div>
               </div>
             </div>

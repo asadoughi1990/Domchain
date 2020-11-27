@@ -16,7 +16,7 @@ class Features extends Component {
                   <h2>Secured</h2>
                   <div className="pricing-border"></div>
                   <div className="plan-features mt-4">
-                    <p>
+                    <p className="pb-4">
                       Domchain like all blockchain frameworks is safe and
                       secured. You would not have any concern about losing your
                       domain or your money.
@@ -34,8 +34,8 @@ class Features extends Component {
                   <div className="plan-features mt-4">
                     <p>
                       Despite other platforms that take several days for
-                      transferring the domain and money, Domchain does this
-                      process quickly in less than 24 hours.
+                      transferring the domain and payment, Domchain processes
+                      could be performed quickly and in less than 24 hours.
                     </p>
                   </div>
                 </div>
@@ -48,9 +48,11 @@ class Features extends Component {
                   <h2>Lower Cost</h2>
                   <div className="pricing-border"></div>
                   <div className="plan-features mt-4">
-                    <p className="pb-5">
-                      The transaction fee in Domchain is fixed and is the least
-                      in all two-sided markets.
+                    <p>
+                      The transaction fee in Domchain is calculated based on
+                      consumed gas in smart contract and we do not take any
+                      transaction fee. The fee is fixed and is just a few
+                      dollars.
                     </p>
                   </div>
                 </div>

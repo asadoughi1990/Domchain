@@ -6,62 +6,75 @@ class Services extends Component {
       <section className="section bg-gray" id="services">
         <div className="container text-center">
           <h1 className="section-title"> Easy to use Dashboard </h1>
-          <p className="section-subtitle mb-4">Sell your domain easily</p>
-
           <div
-            id="carouselExampleIndicators"
-            class="carousel slide"
+            id="carouselExampleCaptions"
+            className="carousel slide"
             data-ride="carousel"
           >
-            <ol class="carousel-indicators">
+            <ol className="carousel-indicators">
               <li
-                data-target="#carouselExampleIndicators"
+                data-target="#carouselExampleCaptions"
                 data-slide-to="0"
-                class="active"
+                className="active"
               ></li>
-              <li
-                data-target="#carouselExampleIndicators"
-                data-slide-to="1"
-              ></li>
-              <li
-                data-target="#carouselExampleIndicators"
-                data-slide-to="2"
-              ></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
             </ol>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="assets/images/D1.png" class="d-block w-100" alt="Dashboard-1" />
+            <div className="carousel-inner">
+              <div className="carousel-item active">
+                <img
+                  src="assets/images/D1.png"
+                  className="d-block w-100"
+                  alt="Dashboard-1"
+                />
+                <div className="carousel-caption d-none d-md-block">
+                  <h4 style={{ color: "black" }}>Sell your domain easily</h4>
+                </div>
               </div>
-              <div class="carousel-item">
-                <img src="assets/images/D2.png" class="d-block w-100" alt="Dashboard-2" />
+              <div className="carousel-item">
+                <img
+                  src="assets/images/D2.png"
+                  className="d-block w-100"
+                  alt="Dashboard-2"
+                />
+                <div className="carousel-caption d-none d-md-block">
+                  <h4 style={{ color: "black" }}>Buy a domain with one click</h4>
+                </div>
               </div>
-              <div class="carousel-item">
-                <img src="assets/images/D3.png" class="d-block w-100" alt="Dashboard-3" />
+              <div className="carousel-item">
+                <img
+                  src="assets/images/D3.png"
+                  className="d-block w-100"
+                  alt="Dashboard-3"
+                />
+                <div className="carousel-caption d-none d-md-block">
+                  <h4 style={{ color: "black" }}>See all the processes in the dashboard</h4>
+                </div>
               </div>
             </div>
             <a
-              class="carousel-control-prev"
-              href="#carouselExampleIndicators"
+              className="carousel-control-prev"
+              href="#carouselExampleCaptions"
               role="button"
               data-slide="prev"
             >
               <span
-                class="carousel-control-prev-icon"
+                className="carousel-control-prev-icon"
                 aria-hidden="true"
               ></span>
-              <span class="sr-only">Previous</span>
+              <span className="sr-only">Previous</span>
             </a>
             <a
-              class="carousel-control-next"
-              href="#carouselExampleIndicators"
+              className="carousel-control-next"
+              href="#carouselExampleCaptions"
               role="button"
               data-slide="next"
             >
               <span
-                class="carousel-control-next-icon"
+                className="carousel-control-next-icon"
                 aria-hidden="true"
               ></span>
-              <span class="sr-only">Next</span>
+              <span className="sr-only">Next</span>
             </a>
           </div>
         </div>

@@ -18,17 +18,7 @@ const TeamItems = (props) => {
             <ul className="list-socmed list-unstyled m-0">
               <li>
                 <a href="/">
-                  <i className="ion ion-logo-facebook" size="small"></i>
-                </a>
-              </li>
-              <li>
-                <a href="/">
-                  <i className="ion ion-logo-twitter"></i>
-                </a>
-              </li>
-              <li>
-                <a href="/">
-                  <i className="ion ion-logo-instagram"></i>
+                <i className="ion ion-logo-linkedin"></i>
                 </a>
               </li>
             </ul>
