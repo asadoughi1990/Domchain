@@ -10,6 +10,7 @@ class Team extends Component {
         teamname={item.teamname}
         skill={item.skill}
         photo={item.photo}
+        linkedIn={item.linkedIn}
       />
     ));
     return (

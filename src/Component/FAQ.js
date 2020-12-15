@@ -20,7 +20,7 @@ class FAQ extends Component {
                   <h2 className="mb-0 faq-question">
                     <strong>Q.</strong>
                     <span className="ml-2">
-                      Do i need to create a blockchain account before transfer?
+                      Do I need to create a blockchain account before transfer?
                     </span>
                   </h2>
                 </div>
@@ -35,8 +35,8 @@ class FAQ extends Component {
                 <div className="card-body">
                   <strong>A.</strong>
                   <br />
-                  Not at all. All procedures will be handled through Domchain
-                  platform.
+                  Not at all. All procedures will be handled through the
+                  Domchain platform.
                 </div>
               </div>
             </div>
@@ -71,9 +71,9 @@ class FAQ extends Component {
                   It depends upon:
                   <ol>
                     <li>
-                      Current domain's condition. for instance, if seller update
-                      domain administration info, it will take 60 days for the
-                      domain to get unlocked.
+                      Current domain's condition. for instance, if a seller
+                      updates domain administration info, it will take 60 days
+                      for the domain to get unlocked.
                     </li>
                     <li>
                       Approving time by both parties (for example, approving

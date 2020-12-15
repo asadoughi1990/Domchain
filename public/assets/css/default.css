@@ -91,9 +91,7 @@ h6 {
 }
 
 .play-shadow {
-  
   border: 3px solid #00adb5;
-  
 }
 
 .btn-play {
@@ -251,11 +249,6 @@ h6 {
 }
 .is-sticky .navbar-header.sticky-light {
   background-color: #fff;
-}
-
-#about img {
-  height: 50%;
-  width: 50%;
 }
 
 /* Add an extra .carousel parent class to increase specificity
@@ -668,7 +661,6 @@ h6 {
 
 /*# sourceMappingURL=default.css.map */
 
-
 /* FAQ Section
 --------------------------------*/
 
@@ -691,7 +683,7 @@ h6 {
   /*margin: 10px !important;*/
   font-weight: 400;
   font-size: 1rem;
-  color:  #00adb5;
+  color: #00adb5;
 }
 
 #faq .card-faq {

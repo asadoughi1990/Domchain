@@ -24,9 +24,12 @@ export default class NavBarSite extends Component {
                       by Domchain!
                     </h1>
                     <p className="header-description mt-4">
-                      a platform based on the blockchain for trading domains
+                      A Platform Based on the Blockchain for Trading Domains
                     </p>
-                    <a href="https://panel.domchain.ir/" className="btn btn-custom btn-round mt-3">
+                    <a
+                      href="https://panel.domchain.ir/"
+                      className="btn btn-custom btn-round mt-3"
+                    >
                       Start Trading
                     </a>
                   </div>

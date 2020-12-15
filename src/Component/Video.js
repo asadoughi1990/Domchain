@@ -21,7 +21,7 @@ class Video extends Component {
           <ModalVideo
             channel="youtube"
             isOpen={this.state.isOpen}
-            videoId="WWpQK3nQclU"
+            videoId="Az9i6D6d_ko"
             rel="0"
             onClose={() => this.setState({ isOpen: false })}
           />

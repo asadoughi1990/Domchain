@@ -17,8 +17,8 @@ class Features extends Component {
                   <div className="pricing-border"></div>
                   <div className="plan-features mt-4">
                     <p className="pb-4">
-                      Domchain like all blockchain frameworks is safe and
-                      secured. You would not have any concern about losing your
+                      Domchain, like all blockchain frameworks, is safe and
+                      secured. You would not have any concerns about losing your
                       domain or your money.
                     </p>
                   </div>
@@ -29,7 +29,7 @@ class Features extends Component {
               <div className="pricing-box active">
                 <div className="pricing">
                   <i className="fa fa-bolt fa-5x pb-4"></i>
-                  <h2>Prompt Process</h2>
+                  <h2>Quick Process</h2>
                   <div className="pricing-border"></div>
                   <div className="plan-features mt-4">
                     <p>

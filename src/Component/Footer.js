@@ -11,17 +11,7 @@ class Footer extends Component {
               <div className="ml-auto">
                 <ul className="list-socmed list-unstyled m-0">
                   <li>
-                    <a href="/">
-                      <i className="ion ion-logo-facebook"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="/">
-                      <i className="ion ion-logo-twitter"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="/">
+                    <a href="https://www.linkedin.com/company/domchain/">
                       <i className="ion ion-logo-linkedin"></i>
                     </a>
                   </li>

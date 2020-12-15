@@ -17,7 +17,7 @@ const TeamItems = (props) => {
             <div className="border-separator"></div>
             <ul className="list-socmed list-unstyled m-0">
               <li>
-                <a href="/">
+                <a href={props.linkedIn}>
                 <i className="ion ion-logo-linkedin"></i>
                 </a>
               </li>
