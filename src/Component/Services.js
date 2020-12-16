@@ -18,15 +18,15 @@ const Services = () => {
           autoplayHoverPause={true}
         >
           <div>
-            <img src="assets/images/D1.png" alt="Dashboard-1" />
+            <img src="assets/images/D1.PNG" alt="Dashboard-1" />
             <h4 className="mt-3">Sell your domain easily</h4>
           </div>
           <div>
-            <img src="assets/images/D2.png" alt="Dashboard-2" />
+            <img src="assets/images/D2.PNG" alt="Dashboard-2" />
             <h4 className="mt-3">Buy a domain with one click</h4>
           </div>
           <div>
-            <img src="assets/images/D3.png" alt="Dashboard-3" />
+            <img src="assets/images/D3.PNG" alt="Dashboard-3" />
             <h4 className="mt-3">
               See all the processes in the dashboard
             </h4>
