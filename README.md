@@ -1,1 +1,1 @@
-This project is developed for Lightech website.
+This project is developed for Domchain website.
